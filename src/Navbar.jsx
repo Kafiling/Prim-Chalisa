@@ -34,7 +34,8 @@ function Navbar(){
         <div className="navbar">
             <div className="navbar-container container"> 
                 <div to= '/' className="navbar-logo" onClick={closeMobileMenu}>
-                <AiTwotoneExperiment className='navbar-icon' />
+                <img src='https://firebasestorage.googleapis.com/v0/b/prim-chalisa.appspot.com/o/ballet.png?alt=media&token=43ab66f5-76f5-485c-897a-10b93b609317'
+                className='navbar-icon' />
                 Prim Chalisa
                 </div>
                 <div className="menu-icon" onClick={handleClick}>
@@ -42,25 +43,26 @@ function Navbar(){
                 </div>
                 <ul className = {click ? 'nav-menu active' : 'nav-menu'}>
                     <li className='nav-item'>
+                        <div to= '/help' className="nav-links" onClick={closeMobileMenu}>
+                        About Me
+                        </div>
+                    </li>
+                    <li className='nav-item'>
                         <div to= '/' className="nav-links" onClick={closeMobileMenu}>
-                            Home
+                        Projects
                         </div>
                     </li>
                     <li className='nav-item'>
                         <div to= '/playground' className="nav-links" onClick={closeMobileMenu}>
-                            Playground
+                        Extracurricular 
                         </div>
                     </li>
                     <li className='nav-item'>
                         <div to= '/aboutUs' className="nav-links" onClick={closeMobileMenu}>
-                            About Us
+                        Awards
                         </div>
                     </li>
-                    <li className='nav-item'>
-                        <div to= '/help' className="nav-links" onClick={closeMobileMenu}>
-                            Help
-                        </div>
-                    </li>
+                    
                     
                 </ul>
 

@@ -22,17 +22,7 @@ const firebaseConfig = {
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);
 const analytics = getAnalytics(app);
-const homeObjOne = {
-  PinkBgColor : false,
-  lightText : true,
-  lightTextDesc : true,
-  topLine : 'เปลี่ยนการเรียนฟิสิกส์แบบเดิมๆ',
-  headline : 'Curious ',
-  description : 'ไขข้อข้องใจต่างๆในรายวิชาฟิสิกส์ด้วยการทดลองเสมือนจัดเตรียมไว้เพื่อคุณ ทำให้คุณได้พบกับมุมมองใหม่ๆและเปลี่ยนการเรียนฟิสิกส์ไปตลอดกาล ',
-  imgStart: '',
-  img : 'https://firebasestorage.googleapis.com/v0/b/keep-curious-v2.appspot.com/o/Homepage%2Fto_the_moon.svg?alt=media&token=c6294016-27a8-445a-bfd0-2eff414494c9',
-  alt : 'Curious'
-}
+
 
 
 
