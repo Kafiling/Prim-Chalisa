@@ -1,6 +1,8 @@
 import { useState } from 'react'
 import './App.css'
-import Navbar from './Navbar'
+import styles from './style'
+// Improt Component
+import Navbar from './Components/Navbar'
 // Import the functions you need from the SDKs you need
 import { initializeApp } from "firebase/app";
 import { getAnalytics } from "firebase/analytics";
@@ -29,12 +31,27 @@ const analytics = getAnalytics(app);
 function App() {
   
   return (
-    <div className="App">
+    <div className="bg-primary w-full overflow-hidden">
     <Navbar/>
-    <h1 className="text-3xl font-bold underline">
-      Hello world!
-    </h1>
+
+    <div className={`bg-primary ${styles.flexStart}`} >
+      <div className={`${styles.boxWidth}`}>
+        Hero
+      </div>
     </div>
+
+    <div className={`bg-primary ${styles.paddingX} ${styles.flexStart}`} >
+      <div className={`${styles.boxWidth}`}>
+        block#1
+        block#2
+        block#3
+        block#4        
+      </div>
+    </div>
+    
+
+    </div>
+
   )
 }
 
