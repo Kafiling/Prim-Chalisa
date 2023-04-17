@@ -85,6 +85,21 @@
   animation: slide-top 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
 }
 
+.text-violet{
+  background: #42385D;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+.text-black{
+  background: #010101;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+
 @-webkit-keyframes slide-top {
   0% {
     -webkit-transform: translateY(100px);
@@ -123,7 +138,6 @@
 .feedback-card:hover {
   background: var(--black-gradient);
 }
-
 .blue__gradient {
   background: linear-gradient(180deg, rgba(188, 165, 255, 0) 0%, #214d76 100%);
   filter: blur(123px);
@@ -136,5 +150,11 @@
 
 .white__gradient {
   background: rgba(255, 255, 255, 0.6);
-  filter: blur(750px);
+  filter: blur(120px);
+}
+
+.Hero__gradient{
+  background: rgb(255,207,218);
+background: linear-gradient(90deg, rgba(255,207,218,1) 0%, rgba(255,253,182,1) 56%, rgba(255,255,255,1) 100%);
+filter: blur(128px);
 }

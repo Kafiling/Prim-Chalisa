@@ -1,6 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Prompt&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Prompt', sans-serif;
+  }
+
 .navbar {
-    background: #D6C488;
+    background: #FCB69E;
     height: 80px;
     display: flex;
     justify-content: center;
@@ -96,7 +106,7 @@
     }
   
     .nav-menu.active {
-      background: #D6C488;
+      background: #FCB69E;
       left: 0;
       opacity: 1;
       transition: all 0.6s ease;

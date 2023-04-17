@@ -3,7 +3,7 @@ import './App.css'
 import styles from './style'
 // Improt Component
 import Navbar from './Components/Navbar'
-import { HeroSection } from './Components'
+import  HeroSection  from './Components/HeroSection'
 // Import the functions you need from the SDKs you need
 import { initializeApp } from "firebase/app";
 import { getAnalytics } from "firebase/analytics";
@@ -31,10 +31,13 @@ const analytics = getAnalytics(app);
 
 function App() {
   
-  return (
-    <div className="bg-primary w-full overflow-hidden">
-    <Navbar/>
-
+  return (<>
+   <Navbar/>
+   <div className="bg-primary w-full overflow-hidden">
+    
+   
+  
+    
     <div className={`bg-primary ${styles.flexStart}`} >
       <div className={`${styles.boxWidth}`}>
         <HeroSection/>
@@ -50,8 +53,11 @@ function App() {
       </div>
     </div>
     
+    
 
     </div>
+  </>
+   
 
   )
 }
