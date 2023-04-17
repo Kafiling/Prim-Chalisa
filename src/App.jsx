@@ -44,9 +44,9 @@ function App() {
       </div>
     </div>
 
-    <div className={`bg-primary ${styles.paddingX} ${styles.flexStart}`} >
+    <div className={`bg-white ${styles.paddingX} ${styles.flexStart}`} >
       <div className={`${styles.boxWidth}`}>
-        block#1
+        <div className='bg-white'>block#1</div>
         block#2
         block#3
         block#4        
