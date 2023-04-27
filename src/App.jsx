@@ -3,7 +3,7 @@ import './App.css'
 import styles from './style'
 // Improt Component
 import Navbar from './Components/Navbar'
-import  HeroSection  from './Components/HeroSection'
+import  {HeroSection,Banner}  from './Components'
 // Import the functions you need from the SDKs you need
 import { initializeApp } from "firebase/app";
 import { getAnalytics } from "firebase/analytics";
@@ -46,7 +46,7 @@ function App() {
 
     <div className={`bg-white ${styles.paddingX} ${styles.flexStart}`} >
       <div className={`${styles.boxWidth}`}>
-        <div className='bg-white'>block#1</div>
+        <Banner/>
         block#2
         block#3
         block#4        

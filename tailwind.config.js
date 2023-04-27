@@ -9,6 +9,7 @@ export default {
       colors: {
         primary: "#FFCFDA",
         secondary: "#ffffff",
+        tertiary: "#FCB69E",
         accent : "#7371FC",
         accentHover :"#4E4BFB",
         dimWhite: "rgba(255, 255, 255, 0.7)",
