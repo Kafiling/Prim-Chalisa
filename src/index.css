@@ -75,6 +75,18 @@
   );
 }
 
+.bg-pink-gradient {
+  background: hsla(16, 100%, 76%, 1);
+
+background: linear-gradient(63deg, hsla(16, 100%, 76%, 1) 0%, hsla(49, 100%, 81%, 1) 100%);
+
+background: -moz-linear-gradient(63deg, hsla(16, 100%, 76%, 1) 0%, hsla(49, 100%, 81%, 1) 100%);
+
+background: -webkit-linear-gradient(63deg, hsla(16, 100%, 76%, 1) 0%, hsla(49, 100%, 81%, 1) 100%);
+
+filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#ffa585", endColorstr="#ffeda0", GradientType=1 );
+}
+
 .bg-discount-gradient {
   background: linear-gradient(125.17deg, #272727 0%, #11101d 100%);
 }
