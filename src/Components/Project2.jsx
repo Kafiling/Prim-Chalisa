@@ -1,7 +1,7 @@
 import React from 'react'
 import styles from '../style'
 import { ImArrowUpRight2 } from 'react-icons/im';
-const Project1 = () => {
+const Project2 = () => {
    return(
    <>
       <section id='project1-1' className={`flex md:flex-row flex-col py-4  `}>
@@ -73,4 +73,4 @@ const Project1 = () => {
   
 }
 
-export default Project1
+export default Project2
