@@ -1,13 +1,13 @@
 import React from 'react'
-
+import Card from './Card'
+import {ProjectCard1} from './../Constants/Index'
 const ProjectSummary = () => {
   return ( 
-    <section id='project-sum' className={`flex md:flex-row flex-col py-4  `}>
-        <div className='flex flex-col md:flex-row'>
-            <p>a</p>
-            <p>a</p>
-            <p>a</p>
-            <p>a</p>
+    <section id='project-sum' className={`flex md:flex-row flex-col py-[64px]  `}>
+        <div className='w-[100%] flex flex-col justify-between md:flex-row'>
+        <Card {...ProjectCard1}/>
+        <Card {...ProjectCard1}/>
+        <Card {...ProjectCard1}/>
         </div>
     </section>
   )

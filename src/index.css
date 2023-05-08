@@ -146,9 +146,7 @@ filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#ffa585", en
   margin-right: 0px;
 }
 
-.feedback-card {
-  background: transparent;
-}
+
 
 .feedback-card:hover {
   background: var(--black-gradient);
@@ -161,6 +159,13 @@ filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#ffa585", en
 .pink__gradient {
   background: linear-gradient(90deg, #f4c4f3 0%, #fc67fa 100%);
   filter: blur(900px);
+}
+.glassBg{
+  background: rgba( 255, 255, 255, 0.45 );
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  backdrop-filter: blur( 14px );
+  -webkit-backdrop-filter: blur( 14px );
+  border-radius: 10px;
 }
 
 .white__gradient {

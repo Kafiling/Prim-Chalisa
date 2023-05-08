@@ -39,7 +39,7 @@ const Project1 = () => {
        
   </section>
 
-  <section id='project1-2' className={`flex md:flex-row-reverse  flex-col py-4  `}>
+  <section id='project1-2' className={`flex md:flex-row-reverse  flex-col pt-4 pb-8  `}>
     <div className={`flex-1 ${styles.flexStart} flex-col xl:px-0 sm:px-16 px-6 `}>
       <div className="flex flex-row items-center pt-[16px] px-4 mb-2">
 
