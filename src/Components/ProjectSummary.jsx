@@ -4,7 +4,7 @@ import {ProjectCard1} from './../Constants/Index'
 const ProjectSummary = () => {
   return ( 
     <section id='project-sum' className={`flex md:flex-row flex-col py-[64px]  `}>
-        <div className='w-[100%] flex flex-col justify-between md:flex-row'>
+        <div className='w-[100%] flex flex-col justify-between items-center md:flex-row'>
         <Card {...ProjectCard1}/>
         <Card {...ProjectCard1}/>
         <Card {...ProjectCard1}/>
