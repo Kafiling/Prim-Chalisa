@@ -4,7 +4,7 @@ import { ImArrowUpRight2 } from 'react-icons/im';
 const Extra1 = () => {
    return(
    <>
-      <section id='extra1-1' className={`flex md:flex-row flex-col py-4  `}>
+      <section id='extra1-1' className={`flex md:flex-row flex-col py-4 md:py-[20%] `}>
     <div className={`flex-1 ${styles.flexStart} flex-col xl:px-0 sm:px-16 px-6 `}>
       <div className="flex flex-row items-center pt-[16px] px-4 mb-2">
 
@@ -18,7 +18,7 @@ const Extra1 = () => {
       <div className="flex flex-row items-center py-[6px] px-4 mb-2">
       <div className='flex justify-between items-center w-full'>
         <h1 className='flex-1 font-poppins font-semibold ss:text-[64px] text-[52px] text-violet ss:leading-[100px] leading-[75px] z-[99]'>
-          Build a dam
+        HyCare's <br/> Club president 
           </h1>
         </div>
       </div>
@@ -36,7 +36,7 @@ const Extra1 = () => {
   <p className='text-right pr-[10%] md:pr-0'>01</p>
   <hr class="w-[80%] md:w-[100%] h-[3px] mx-auto border-0 rounded md:my-5 bg-gray-700"></hr>
 
-  <section id='extra1-2' className={`flex md:flex-row flex-col py-4  `}>
+  <section id='extra1-2' className={`flex md:flex-row flex-col py-4 md:py-[20%] `}>
     <div className={`flex-1 ${styles.flexStart} flex-col xl:px-0 sm:px-16 px-6 `}>
       <div className="flex flex-row items-center pt-[16px] px-4 mb-2">
 
@@ -73,7 +73,7 @@ const Extra1 = () => {
   <p className='text-right pr-[10%] md:pr-0'>02</p>
   <hr class="w-[80%] md:w-[100%] h-[3px] mx-auto border-0 rounded md:my-5 bg-gray-700"></hr>
 
-  <section id='extra1-3' className={`flex md:flex-row flex-col py-4  `}>
+  <section id='extra1-3' className={`flex md:flex-row flex-col py-4 md:py-[20%]  `}>
     <div className={`flex-1 ${styles.flexStart} flex-col xl:px-0 sm:px-16 px-6 `}>
       <div className="flex flex-row items-center pt-[16px] px-4 mb-2">
 
