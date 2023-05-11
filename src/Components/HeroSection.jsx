@@ -18,7 +18,7 @@ const HeroSection = () => {
       </div>
       <p className={`${styles.paragraph} max-w-[470px] mt-5 text-black pb-4 z-[99]`}>Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.</p>
       <div className='ss:flex hidden'>
-      <button class="bg-accent hover:bg-accentHover text-white font-bold py-4 px-16 rounded-full inline-flex z-[99]">
+      <button className="bg-accent hover:bg-accentHover text-white font-bold py-4 px-16 rounded-full inline-flex z-[99]">
    Resume <ImArrowUpRight2 className='px-1  w-[100%]  relative top-1 '/>
     </button>
 
@@ -32,7 +32,7 @@ const HeroSection = () => {
         <div className='absolute z-[0] w-[50%] h-[50%] right-20 bottom-20 Hero__gradient '/>
       </div>
       <div className={`ss:hidden ${styles.flexCenter}  relative`}>
-        <button class="bg-accent hover:bg-accentHover text-white font-bold py-4 px-16 mt-[-64px] mb-[8px] rounded-full inline-flex z-[99]">
+        <button className="bg-accent hover:bg-accentHover text-white font-bold py-4 px-16 mt-[-64px] mb-[8px] rounded-full inline-flex z-[99]">
    Resume <ImArrowUpRight2 className='px-1  w-[100%] relative top-1 '/>
         </button>
       </div>
