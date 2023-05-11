@@ -1,6 +1,6 @@
 import React from 'react'
 import styles from '../style'
-import { ImArrowUpRight2 } from 'react-icons/im';
+
 const Project1 = () => {
    return(
    <>
