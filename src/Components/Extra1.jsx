@@ -17,7 +17,7 @@ const Extra1 = () => {
       </div>
       <div className="flex flex-row items-center py-[6px] px-4 mb-2">
       <div className='flex justify-between items-center w-full'>
-        <h1 className='flex-1 font-poppins font-semibold ss:text-[64px] text-[52px] text-violet ss:leading-[100px] leading-[75px] z-[99]'>
+        <h1 className='flex-1 font-poppins font-semibold ss:text-[64px] text-[52px] text-violet ss:leading-[100px] leading-[75px] z-[99] '>
         HyCare's <br/> Club president 
           </h1>
         </div>
@@ -28,9 +28,27 @@ const Extra1 = () => {
       
     </div>
     <div className=' flex items-center  justify-center w-[45%]'>
-        <img src='https://c4.wallpaperflare.com/wallpaper/410/867/750/vector-forest-sunset-forest-sunset-forest-wallpaper-preview.jpg' alt='Prim' className='w-[65%]  relative z-[5]'/>
-        
-      </div>
+        <div className="grid grid-cols-2 gap-4 ">
+        <div className="grid gap-4">
+            
+                <img className="h-auto max-w-full rounded-lg animate-fade-up " src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image.jpg" alt=""/>
+           
+                <img className="h-auto max-w-full rounded-lg" src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-1.jpg" alt=""/>
+            
+                <img className="h-auto max-w-full rounded-lg" src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-2.jpg" alt=""/>
+            
+        </div>
+        <div className="grid gap-4">
+            
+                <img className="h-auto max-w-full rounded-lg" src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-3.jpg" alt=""/>
+            
+                <img className="h-auto max-w-full rounded-lg" src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-4.jpg" alt=""/>
+            
+                <img className="h-auto max-w-full rounded-lg" src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-5.jpg" alt=""/>
+            
+        </div>
+        </div>   
+    </div>
        
   </section>
   <p className='text-right pr-[10%] md:pr-0'>01</p>

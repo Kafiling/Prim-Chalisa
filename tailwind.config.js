@@ -28,5 +28,7 @@ export default {
       xl: "1700px",
     },
   },
-  plugins: [],
+  plugins: [
+    require('tailwindcss-animated')
+  ],
 };
