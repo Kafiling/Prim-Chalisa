@@ -3,12 +3,12 @@ import { InView } from "react-intersection-observer";
 import styles from '../style'
 
 const Extra1 = () => {
-  
+  //TODO แยก 3 section เป็น component ใส่ inview ในแต่ละอัน
    return(
    <>
    <InView>
     {({ inView, ref, entry }) => ( 
-        <section ref={ref} id='extra1-1' className={`flex md:flex-row flex-col py-4 md:py-[7.5%] ` + (inView ? "animate-fade-up animate-ease-in-out animate-delay-300 " : "")}>
+        <section ref={ref} id='extra1-1' className={`flex md:flex-row flex-col py-4 md:py-[7.5%] justify-between items-center ` + (inView ? "animate-fade-up animate-ease-in-out animate-delay-300 " : "")}>
         <div className={`flex-1 ${styles.flexStart} flex-col xl:px-0 sm:px-16 px-6 `}>
           <div className="flex flex-row items-center pt-[16px] px-4 mb-2">
     
@@ -61,8 +61,9 @@ const Extra1 = () => {
       
   <p className='text-right pr-[10%] md:pr-0'>01</p>
   <hr className="w-[80%] md:w-[100%] h-[3px] mx-auto border-0 rounded md:my-5 bg-gray-700"></hr>
-
-  <section id='extra1-2' className={`flex md:flex-row flex-col py-4 md:py-[7.5%] `}>
+  <InView>
+    {({ inView, ref, entry }) => ( 
+  <section id='extra1-2' className={`flex md:flex-row flex-col py-4 md:py-[7.5%] justify-between items-center ` + (inView ? "animate-fade-up animate-ease-in-out animate-delay-300 " : "") }>
     <div className={`flex-1 ${styles.flexStart} flex-col xl:px-0 sm:px-16 px-6 `}>
       <div className="flex flex-row items-center pt-[16px] px-4 mb-2">
 
@@ -94,13 +95,13 @@ const Extra1 = () => {
        <div className="grid grid-cols-2 gap-4 ">
            
            <div className='grid gap-4'>
-             <img className="h-auto max-w-full rounded-lg" src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image.jpg" alt=""/>
+             <img className={"h-auto max-w-full rounded-lg " + (inView ? "animate-fade-up animate-delay-300 animate-ease-in-out" : "")} src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image.jpg" alt=""/>
            
-            <img className="h-auto max-w-full rounded-lg" src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-1.jpg" alt=""/>
+            <img className={"h-auto max-w-full rounded-lg " + (inView ? "animate-fade-up animate-delay-500 animate-ease-in-out" : "")} src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-1.jpg" alt=""/>
            </div>
            <div className='grid gap-4'>
-              <img className="h-auto max-w-full rounded-lg" src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-1.jpg" alt=""/>
-             <img className="h-auto max-w-full rounded-lg" src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image.jpg" alt=""/>
+              <img className={"h-auto max-w-full rounded-lg " + (inView ? "animate-fade-up animate-delay-[400] animate-ease-in-out" : "")} src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-1.jpg" alt=""/>
+             <img className={"h-auto max-w-full rounded-lg " + (inView ? "animate-fade-up animate-delay-[600] animate-ease-in-out" : "")} src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image.jpg" alt=""/>
            
             
            </div>
@@ -111,11 +112,13 @@ const Extra1 = () => {
     </div>
        
   </section>
-
+ )}
+ </InView>
   <p className='text-right pr-[10%] md:pr-0'>02</p>
   <hr className="w-[80%] md:w-[100%] h-[3px] mx-auto border-0 rounded md:my-5 bg-gray-700"></hr>
-
-  <section id='extra1-3' className={`flex md:flex-row flex-col py-4 md:py-[7.5%]  `}>
+  <InView>
+    {({ inView, ref, entry }) => ( 
+  <section id='extra1-3' className={`flex md:flex-row flex-col py-4 md:py-[7.5%] justify-between items-center ` + (inView ? "animate-fade-up animate-ease-in-out animate-delay-300 " : "")}>
     <div className={`flex-1 ${styles.flexStart} flex-col xl:px-0 sm:px-16 px-6 `}>
       <div className="flex flex-row items-center pt-[16px] px-4 mb-2">
 
@@ -167,7 +170,8 @@ const Extra1 = () => {
     </div>
        
   </section>
-  
+  )}
+  </InView>
   <p className='text-right pr-[10%] md:pr-0'>03</p>
 
    </>
