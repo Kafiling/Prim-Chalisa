@@ -6,10 +6,10 @@ import Extra2 from './Extra2';
 import Extra3 from './Extra3';
 
 const Extra = () => {
-  //TODO แยก 3 section เป็น component ใส่ inview ในแต่ละอัน
+  
    return(
    <>
-    <Extra1/>.
+    <Extra1/>
     <p className='text-right pr-[10%] md:pr-0'>01</p>
     <hr className="w-[80%] md:w-[100%] h-[3px] mx-auto border-0 rounded md:my-5 bg-gray-700"></hr>
     <Extra2/>

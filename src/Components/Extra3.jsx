@@ -38,20 +38,20 @@ const Extra3 = () => {
         <div className="grid grid-cols-2 gap-4 ">
         <div className="grid gap-4">
             
-                <img className="h-auto max-w-full rounded-lg" src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image.jpg" alt=""/>
+                <img className={"h-auto max-w-full rounded-lg " + (inView ? "animate-fade-up animate-delay-300 animate-ease-in-out" : "")} src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image.jpg" alt=""/>
            
-                <img className="h-auto max-w-full rounded-lg" src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-1.jpg" alt=""/>
+                <img className={"h-auto max-w-full rounded-lg " + (inView ? "animate-fade-up animate-delay-500 animate-ease-in-out" : "")} src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-1.jpg" alt=""/>
             
-                <img className="h-auto max-w-full rounded-lg" src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-2.jpg" alt=""/>
+                <img className={"h-auto max-w-full rounded-lg " + (inView ? "animate-fade-up animate-delay-700 animate-ease-in-out" : "")} src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-2.jpg" alt=""/>
             
         </div>
         <div className="grid gap-4">
             
-                <img className="h-auto max-w-full rounded-lg" src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-3.jpg" alt=""/>
+                <img className={"h-auto max-w-full rounded-lg " + (inView ? "animate-fade-up animate-delay-[400ms] animate-ease-in-out" : "")} src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-3.jpg" alt=""/>
             
-                <img className="h-auto max-w-full rounded-lg" src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-4.jpg" alt=""/>
+                <img className={"h-auto max-w-full rounded-lg " + (inView ? "animate-fade-up animate-delay-[600ms] animate-ease-in-out" : "")} src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-4.jpg" alt=""/>
             
-                <img className="h-auto max-w-full rounded-lg" src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-5.jpg" alt=""/>
+                <img className={"h-auto max-w-full rounded-lg " + (inView ? "animate-fade-up animate-delay-[800ms] animate-ease-in-out" : "")} src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-5.jpg" alt=""/>
             
         </div>
         </div>   
