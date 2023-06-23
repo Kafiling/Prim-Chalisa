@@ -33,7 +33,7 @@ const Project1 = () => {
       
     </div>
     <div className=' flex items-center  justify-center'>
-        <img src='https://c4.wallpaperflare.com/wallpaper/410/867/750/vector-forest-sunset-forest-sunset-forest-wallpaper-preview.jpg' alt='Prim' className='w-[65%]  relative rounded-lg z-[5]'/>
+        <img src='https://c4.wallpaperflare.com/wallpaper/410/867/750/vector-forest-sunset-forest-sunset-forest-wallpaper-preview.jpg' alt='Prim' className='w-[100%]  relative rounded-lg z-[5] md:w-[65%]'/>
         
       </div>
        
@@ -62,7 +62,7 @@ const Project1 = () => {
       
     </div>
     <div className=' flex items-center md:justify-start justify-center'>
-        <img src='https://c4.wallpaperflare.com/wallpaper/410/867/750/vector-forest-sunset-forest-sunset-forest-wallpaper-preview.jpg' alt='Prim' className='w-[65%]  relative rounded-lg z-[5]'/>
+        <img src='https://c4.wallpaperflare.com/wallpaper/410/867/750/vector-forest-sunset-forest-sunset-forest-wallpaper-preview.jpg' alt='Prim'  className='w-[100%]  relative rounded-lg z-[5] md:w-[65%]'/>
         
       </div>
        
