@@ -44,18 +44,6 @@ function App() {
           </div>
         </div>
 
-        <div className={`bg-secondary ${styles.paddingX} ${styles.flexStart}`}>
-          <div className={`${styles.boxWidth}`}>
-            <Project1 />
-          </div>
-        </div>
-
-        <div className={`bg-primary ${styles.paddingX} ${styles.flexStart}`}>
-          <div className={`${styles.boxWidth}`}>
-            <Project2 />
-          </div>
-        </div>
-
         <div
           className={`bg-[url('https://images.creativemarket.com/0.1.0/ps/10574351/910/303/m2/fpnw/wm1/lahijl3boi3hjl8fhkolhnfzz4jdhpq513pw7mrqsvixalxzt6w9lbodtiir0ydb-.jpg?1625495080&s=1b4046908b1fd73344e331ea268d83a9&fmt=webp')] bg-cover ${styles.paddingX} ${styles.flexStart}`}
         >
@@ -67,6 +55,18 @@ function App() {
         <div className={`bg-secondary ${styles.paddingX} ${styles.flexStart}`}>
           <div className={`${styles.boxWidth}`}>
             <Extra />
+          </div>
+        </div>
+
+        <div className={`bg-secondary ${styles.paddingX} ${styles.flexStart}`}>
+          <div className={`${styles.boxWidth}`}>
+            <Project1 />
+          </div>
+        </div>
+
+        <div className={`bg-primary ${styles.paddingX} ${styles.flexStart}`}>
+          <div className={`${styles.boxWidth}`}>
+            <Project2 />
           </div>
         </div>
       </div>
