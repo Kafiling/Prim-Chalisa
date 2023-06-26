@@ -38,7 +38,7 @@ const Extra2 = () => {
 
             <div className="ss:flex hidden"></div>
           </div>
-          <div className=" flex items-center  justify-center w-[45%]">
+          <div className="flex items-center  justify-center w-[100%] md:w-[45%]">
             <div className="grid grid-cols-2 gap-4 ">
               <div className="grid gap-4">
                 <img

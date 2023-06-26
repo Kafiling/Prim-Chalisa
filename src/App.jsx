@@ -58,13 +58,13 @@ function App() {
           </div>
         </div>
 
-        <div className={`bg-secondary ${styles.paddingX} ${styles.flexStart}`}>
+        <div className={`bg-primary ${styles.paddingX} ${styles.flexStart}`}>
           <div className={`${styles.boxWidth}`}>
             <Project1 />
           </div>
         </div>
 
-        <div className={`bg-primary ${styles.paddingX} ${styles.flexStart}`}>
+        <div className={`bg-secondary ${styles.paddingX} ${styles.flexStart}`}>
           <div className={`${styles.boxWidth}`}>
             <Project2 />
           </div>
