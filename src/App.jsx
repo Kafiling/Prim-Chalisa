@@ -3,6 +3,7 @@ import "./App.css";
 import styles from "./style";
 // Improt Component
 import {
+  AboutMe,
   Banner,
   Extra,
   HeroSection,
@@ -41,6 +42,12 @@ function App() {
         <div className={`bg-primary ${styles.flexStart}`}>
           <div className={`${styles.boxWidth}`}>
             <HeroSection />
+          </div>
+        </div>
+
+        <div className={`bg-secondary ${styles.paddingX} ${styles.flexStart}`}>
+          <div className={`${styles.boxWidth}`}>
+            <AboutMe />
           </div>
         </div>
 
