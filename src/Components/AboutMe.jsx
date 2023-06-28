@@ -9,7 +9,7 @@ const AboutMe = () => {
         <section
           id="about-me"
           className={
-            `flex md:flex-row flex-col py-4 md:py-[7.5%]` +
+            `flex md:flex-row flex-col py-4 md:py-[7.5%] ` +
             (inView
               ? " animate-fade-up animate-ease-in-out animate-delay-300 "
               : "")

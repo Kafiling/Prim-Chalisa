@@ -4,12 +4,12 @@ import styles from "./style";
 // Improt Component
 import {
   AboutMe,
-  Banner,
   Extra,
   HeroSection,
   Project1,
   Project2,
   ProjectSummary,
+  Skills,
 } from "./Components";
 import Navbar from "./Components/Navbar";
 // Import the functions you need from the SDKs you need
@@ -48,6 +48,7 @@ function App() {
         <div className={`bg-secondary ${styles.paddingX} ${styles.flexStart}`}>
           <div className={`${styles.boxWidth}`}>
             <AboutMe />
+            <Skills />
           </div>
         </div>
 
