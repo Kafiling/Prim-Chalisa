@@ -33,9 +33,9 @@ const Skills = () => {
               <li className="px-2 mr-8 mt-2 ss:text-[20px] text-[18px] ss:leading-[35px] leading-[30px] bg-primary rounded-lg">
                 Ipsum
               </li>
-              <liv className="px-2 mr-8 mt-2 ss:text-[20px] text-[18px] ss:leading-[35px] leading-[30px] bg-primary rounded-lg">
+              <div className="px-2 mr-8 mt-2 ss:text-[20px] text-[18px] ss:leading-[35px] leading-[30px] bg-primary rounded-lg">
                 Placeholder Text
-              </liv>
+              </div>
             </ul>
           </div>
         </section>
